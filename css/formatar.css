@@ -1,0 +1,78 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+main{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.itensdapagina{
+    /* overflow-y: scroll; */
+    /* overflow: scroll; */
+    min-height: 100%;
+    height: fit-content;
+    /* overflow: auto; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    /* background-color: black; */
+}
+.cetralitens{
+    height: 100%;
+    width: 966px;
+    /* background-color: blue; */
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+*{
+    /* font-family: logo; */
+    font-family: fontglobal;
+}
+@font-face {
+    font-family: fontglobal;
+    src: url(./textfont/Gabarito-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: logo;
+    src: url(./textfont/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+    font-style: normal;
+    /* font-weight: 600; */
+}
